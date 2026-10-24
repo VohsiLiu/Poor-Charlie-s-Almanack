@@ -1,0 +1,36 @@
+\documentclass{PoorCharlie'sAlmanack}
+
+\begin{document}
+
+    \pagenumbering{roman}
+    \hypersetup{pageanchor=false}
+    \pdfbookmark[0]{穷查理宝典（珍藏本）：芒格智慧箴言与私人书单}{volume-root}
+    
+    \include{封面/封面}
+    \setcounter{tocdepth}{2}
+    \setcounter{secnumdepth}{0}
+    \pagestyle{tocstyle}
+    \pagenumbering{Roman}
+    \hypersetup{pageanchor=true}
+    \tableofcontents
+    \cleardoublepage
+    \pagestyle{docstyle}
+    \pagenumbering{arabic}
+
+    % 正文章节
+    \include{chapter/序言}
+    \include{chapter/上篇}
+    \include{chapter/1查理·芒格传略}
+    \include{chapter/2歌颂长者：芒格论晚年}
+    \include{chapter/3忆念：晚辈谈芒格}
+    \include{chapter/4芒格主义：查理的即席谈话}
+    \include{chapter/下篇}
+    \include{chapter/如果}
+    \include{chapter/书单1自然}
+    \include{chapter/书单2人类}
+    \include{chapter/书单3经济}
+    \include{chapter/书单4投资}
+    \include{chapter/书单5人生}
+    \include{chapter/书单6处世}
+
+\end{document}

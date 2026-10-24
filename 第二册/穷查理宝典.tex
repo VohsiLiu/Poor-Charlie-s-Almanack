@@ -1,0 +1,23 @@
+\documentclass{PoorCharlie'sAlmanack}
+\begin{document}
+
+    \pagenumbering{roman}
+    \hypersetup{pageanchor=false}
+    \pdfbookmark[0]{穷查理宝典（珍藏本）：芒格最重要的三场演讲}{volume-root}
+
+    \include{封面/封面}
+
+    \setcounter{tocdepth}{2}
+    \setcounter{secnumdepth}{0}
+    \pagestyle{tocstyle}
+    \pagenumbering{Roman}
+    \hypersetup{pageanchor=true}
+    \tableofcontents
+    \cleardoublepage
+    \pagestyle{docstyle}
+    \pagenumbering{arabic}
+
+    \include{chapter/1最有用的商业智慧有哪些.tex}
+    \include{chapter/2如何获得精彩人生.tex}
+    \include{chapter/3聪明人为什么会犯错.tex}
+\end{document}
